@@ -1,0 +1,35 @@
+body {
+    margin: 0px;
+}
+
+.accordion {
+    margin-left: 25px;
+    margin-top: 25px;
+    width: 600px;
+}
+
+.accordion .item {
+    margin-bottom: 5px;
+}
+
+.accordion .head {
+    font-size: 16px;
+    line-height: 150%;
+    padding: 0.25rem 0.75rem;
+    color: #fff;
+    background: #c39c09;
+    border-top: 5px solid #663524;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    cursor: pointer;
+}
+
+.accordion .body {
+    /*padding: 12px;*/
+    background: #eee;
+    /*display: none;*/
+    visibility: hidden;
+    overflow: hidden;
+    height: 0;
+    text-align: justify;
+}
